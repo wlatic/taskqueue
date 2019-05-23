@@ -1,0 +1,182 @@
+# Copyright (C) 2018 Brainstorm Force
+# This file is distributed under the GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Freshdesk 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-freshdesk\n"
+"POT-Creation-Date: 2018-04-11 10:22:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: admin-settings.php:66
+msgid "WP Freshdesk Settings"
+msgstr ""
+
+#: admin-settings.php:67
+msgid ""
+"Now your users won't have to remember one more username and password! "
+"Configure your WordPress website and Freshdesk to work together to give "
+"your users Freshdesk Remote Authentication!"
+msgstr ""
+
+#: admin-settings.php:71
+msgid "General Configuration"
+msgstr ""
+
+#: admin-settings.php:72
+msgid "Shortcodes"
+msgstr ""
+
+#: admin-settings.php:73
+msgid "Freshdesk SSO"
+msgstr ""
+
+#: admin-settings.php:74
+msgid "Display Settings"
+msgstr ""
+
+#: admin-settings.php:77
+msgid ""
+"All the settings related to connecting your freshdesk account with your "
+"WordPress are listed here."
+msgstr ""
+
+#: admin-settings.php:87
+msgid "Shortcodes for displaying tickets on your page."
+msgstr ""
+
+#: admin-settings.php:90
+msgid "All tickets"
+msgstr ""
+
+#: admin-settings.php:94 wp-freshdesk.php:259
+msgid "Open"
+msgstr ""
+
+#: admin-settings.php:98 wp-freshdesk.php:269
+msgid "Resolved"
+msgstr ""
+
+#: admin-settings.php:102 wp-freshdesk.php:274
+msgid "Closed"
+msgstr ""
+
+#: admin-settings.php:106 wp-freshdesk.php:264
+msgid "Pending"
+msgstr ""
+
+#: admin-settings.php:110 wp-freshdesk.php:279
+msgid "Waiting on Customer"
+msgstr ""
+
+#: admin-settings.php:114 wp-freshdesk.php:285
+msgid "Waiting on Third Party"
+msgstr ""
+
+#: admin-settings.php:118
+msgid "Create New Ticket"
+msgstr ""
+
+#: admin-settings.php:124
+msgid ""
+"Configure Single Sign on with Freshdesk, so that users don't have to "
+"remember their username and password combos to get to their tickets."
+msgstr ""
+
+#: admin-settings.php:137
+msgid "Note: Remember that you can always go to: "
+msgstr ""
+
+#: admin-settings.php:137
+msgid ""
+" to use the regular login in case you get unlucky and somehow lock yourself "
+"out of Freshdesk."
+msgstr ""
+
+#: admin-settings.php:144
+msgid "All the front-end related setings are listed here."
+msgstr ""
+
+#: wp-freshdesk.php:92
+msgid "Remote authentication is not configured yet."
+msgstr ""
+
+#: wp-freshdesk.php:167
+msgid "Remote authentication failed: "
+msgstr ""
+
+#: wp-freshdesk.php:169
+msgid "Try again"
+msgstr ""
+
+#: wp-freshdesk.php:170
+msgid "Log out of %s"
+msgstr ""
+
+#: wp-freshdesk.php:171
+msgid "Return to %s dashboard"
+msgstr ""
+
+#: wp-freshdesk.php:254
+msgid "All Tickets"
+msgstr ""
+
+#: wp-freshdesk.php:289
+msgid "Search..."
+msgstr ""
+
+#: wp-freshdesk.php:307 wp-freshdesk.php:332
+msgid "Invalid Credentials"
+msgstr ""
+
+#: wp-freshdesk.php:310 wp-freshdesk.php:335
+msgid "Invalid User"
+msgstr ""
+
+#: wp-freshdesk.php:312 wp-freshdesk.php:337
+msgid "Invalid Freshdesk URL"
+msgstr ""
+
+#: wp-freshdesk.php:321 wp-freshdesk.php:342
+msgid "Error!"
+msgstr ""
+
+#: wp-freshdesk.php:340
+msgid "No tickets"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Freshdesk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With this plugin, your users will be able to see their tickets on your "
+"Freshdesk support portal. Other features include - SSO, ticket filtering, "
+"sorting & search options. Admins have an options to display only certain "
+"status tickets with shortcodes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.brainstormforce.com/"
+msgstr ""

@@ -1,0 +1,350 @@
+/* CSS Document */
+
+.fd-message {
+    background: #eff8e6 none repeat scroll 0 0;
+    border: 1px solid #d6eebd;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    color: #424242;
+    margin: 0 0 1.758em;
+    padding: 20px;
+}
+
+.fd-message::before {
+    bottom: -0.18em;
+    color: #d6eebd;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 4.5em;
+    font-weight: 400;
+    line-height: 100%;
+    position: absolute;
+    right: -0.18em;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+         -o-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    width: auto;
+}
+
+.fd-tickets-outter > ul .group .ticket-data .ticket-title {
+    margin-bottom: 5px;
+	font-weight:bold;
+}
+
+.fd-tickets-outter > ul .group .ticket-data .ticket-title .ticket-id {
+    color: #aaaaaa;
+    margin-left: 5px;
+	font-style:italic;
+}
+
+.fd-tickets-outter > ul .group .ticket-data .ticket-excerpt {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.fd-tickets-outter > ul .group .ticket-meta .ticket-status {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.fd-tickets-outter > ul .group .ticket-meta .ticket-time {
+    color: #888;
+    float: right;
+    font-size: 13px;
+}
+
+.fd-tickets-outter > ul .group a {
+    color: #3c3c3c;
+}
+
+.fd-tickets-outter > ul .group .ticket-meta {
+    float: right;
+}
+
+.group::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.fd-tickets-outter > ul .group.status-closed {
+    background-color: #fafafa;
+    opacity: 0.5;
+}
+
+.content .fd-tickets-outter > ul {
+	margin-left: 0;
+    width: 100%;
+}
+
+.fd-tickets-outter > ul .group .ticket-data {
+    float: left;
+    max-width: 65%;
+}
+
+.fd-tickets-outter > ul .group a {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #3c3c3c;
+    display: block;
+    float: left;
+    padding: 20px 15px;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+.fd-tickets-outter > ul li{
+	list-style: outside none none;
+	border-bottom: 1px solid #eee;
+    margin-left: 0;
+}
+
+.fd-tickets-outter > ul .fd-filter-tickets {
+	border-bottom: 0 none;
+}
+
+.fd-badge {
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    height: 170px;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    background: url("../assets/FreshDesk-WP_logo.png") no-repeat top center;
+    -webkit-background-size: 150px 150px;
+         -o-background-size: 150px;
+            background-size: 150px;
+}
+
+.form-table {
+	width:100%;
+}
+
+.fd-about-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #777;
+    margin: 1em 200px 1em 0;
+    min-height: 60px;
+}
+
+.fd-filter {
+	margin-bottom: 3%;
+	margin-right:3%;
+	float:left;
+}
+
+.fd-more-tickets {
+    background: rgb(228, 228, 228) none repeat scroll 0% 0%;
+    padding: 3px;
+    border-left: 2px solid grey;
+    font-style: oblique;
+}
+
+.fd-use-apikey-yesno {
+    margin-left: 80px;
+}
+
+.fd-use-apikey-yes {
+    color: #34A7C1;
+}
+
+.fd-use-apikey-no {
+    color: #6F7979;
+}
+
+.clear {
+    clear: both;
+}
+
+.fd-heading-section {
+    position: relative;
+}
+
+.fd-heading-section h1 {
+    margin: 0 200px 20px 0;
+    padding: 0;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1.3em;
+}
+
+.fd-heading-section h3 {
+    margin: 0 200px 15px 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.45em;
+    letter-spacing: 0;
+    color: #777;
+}
+
+.fd-tabs {
+    margin: 1em 15px;
+}
+
+#shortcode-tab table tbody tr td {
+    border-bottom: 1px solid #e0e0e0;
+    min-width: 160px;
+    padding: 7px;
+}
+
+/* ============================================================
+  COMMON
+  ============================================================ */
+  #fd-wrapper {
+    min-width: 600px;
+}
+
+.fd-settings {
+    display: table;
+    width: 100%;
+}
+
+.fd-settings .fd-row {
+    display: table-row;
+}
+
+.fd-settings .fd-switch {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* ============================================================
+  COMMON
+  ============================================================ */
+  .fd-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.fd-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+/* ============================================================
+  Switch 1 - ROUND
+  ============================================================ */
+  input.fd-toggle-round + label {
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #dddddd;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
+}
+
+input.fd-toggle-round + label:before, input.fd-toggle-round + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input.fd-toggle-round + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
+    -webkit-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+
+input.fd-toggle-round + label:after {
+    width: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transition: margin 0.4s;
+    -o-transition: margin 0.4s;
+    transition: margin 0.4s;
+}
+
+input.fd-toggle-round:checked + label:before {
+    background-color: #34a7c1;
+}
+
+input.fd-toggle-round:checked + label:after {
+    margin-left: 42px;
+}
+
+@media screen and (max-width: 767px) {
+    .fd-table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .fd-table-responsive > .table {
+        margin-bottom: 0
+    }
+
+    .fd-table-responsive > .table > thead > tr > th, .fd-table-responsive > .table > tbody > tr > th, .fd-table-responsive > .table > tfoot > tr > th, .fd-table-responsive > .table > thead > tr > td, .fd-table-responsive > .table > tbody > tr > td, .fd-table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap
+    }
+
+    .fd-table-responsive > .table-bordered {
+        border: 0
+    }
+
+    .fd-table-responsive > .table-bordered > thead > tr > th:first-child, .fd-table-responsive > .table-bordered > tbody > tr > th:first-child, .fd-table-responsive > .table-bordered > tfoot > tr > th:first-child, .fd-table-responsive > .table-bordered > thead > tr > td:first-child, .fd-table-responsive > .table-bordered > tbody > tr > td:first-child, .fd-table-responsive > .table-bordered > tfoot > tr > td:first-child {
+        border-left: 0
+    }
+
+    .fd-table-responsive > .table-bordered > thead > tr > th:last-child, .fd-table-responsive > .table-bordered > tbody > tr > th:last-child, .fd-table-responsive > .table-bordered > tfoot > tr > th:last-child, .fd-table-responsive > .table-bordered > thead > tr > td:last-child, .fd-table-responsive > .table-bordered > tbody > tr > td:last-child, .fd-table-responsive > .table-bordered > tfoot > tr > td:last-child {
+        border-right: 0
+    }
+
+    .fd-table-responsive > .table-bordered > tbody > tr:last-child > th, .fd-table-responsive > .table-bordered > tfoot > tr:last-child > th, .fd-table-responsive > .table-bordered > tbody > tr:last-child > td, .fd-table-responsive > .table-bordered > tfoot > tr:last-child > td {
+        border-bottom: 0
+    }
+
+    .fd-filter-dropdown {
+        margin-bottom: 3%;
+        float: none;
+    }
+
+    .fd-search-box {
+        margin-bottom: 3%;
+        float: none;
+    }
+}
+@media only screen and (max-width:500px) {
+	.fd-badge {
+		position:relative;
+		margin-bottom:1.5em;
+		width:100%
+	}
+	.fd-tabs {
+		margin: 0;
+	}
+}
+/*# sourceMappingURL=sourcemap/fd-style.css.map */
